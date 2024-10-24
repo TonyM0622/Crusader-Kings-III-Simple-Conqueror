@@ -1,0 +1,12 @@
+﻿l_english:
+
+#localizataion for Simple Conqueror Mod
+conqueror_decision:0 "Become a Conqueror"
+conqueror_decision_tooltip:0 "It is time to conquer your neighbors"
+conqueror_decision_desc:0 "Become a conquerer to unify the land. It is time to Conquer!"
+conqueror_decision_confirm:0 "Become a Conqueror!"
+
+remove_conqueror_decision:0 "Renounce being a Conqueror"
+remove_conqueror_decision_tooltip:0 "You do not want to be a Conqueror anymore"
+remove_conqueror_decision_desc:0 "You decided you conquered enough and want to stop conquering your neighbors for now"
+remove_conqueror_decision_confirm:0 "I don't want to be a Conqueror"

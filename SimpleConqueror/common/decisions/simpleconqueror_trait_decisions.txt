@@ -1,0 +1,58 @@
+﻿
+###################
+#### DECISIONS ####
+###################
+
+###################
+#####Conqueror#####
+###################
+
+# Conqueror Decision
+conqueror_decision = {
+
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_destiny_goal.dds"
+	}
+
+	major = yes
+
+	ai_check_interval = 0
+
+	sort_order = 1
+
+	is_shown = {
+		is_ai = no
+		NOT = {
+			has_trait = conqueror
+		}
+	}
+
+	effect = {
+		add_trait = conqueror
+	}
+
+}
+
+# Remove Conqueror Decision
+remove_conqueror_decision = {
+
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_destiny_goal.dds"
+	}
+
+	major = yes
+
+	ai_check_interval = 0
+
+	sort_order = 1
+
+	is_shown = {
+		is_ai = no
+		has_trait = conqueror
+	}
+
+	effect = {
+		remove_trait = conqueror
+	}
+
+}
