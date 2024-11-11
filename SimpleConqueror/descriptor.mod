@@ -4,5 +4,5 @@ tags={
 	"Balance"
 }
 name="Simple Conqueror"
-supported_version="1.13.2"
+supported_version="1.14.0.2"
 remote_file_id="3354207066"
