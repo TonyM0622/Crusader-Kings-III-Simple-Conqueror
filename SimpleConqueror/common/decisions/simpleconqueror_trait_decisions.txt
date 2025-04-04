@@ -7,8 +7,8 @@
 #####Conqueror#####
 ###################
 
-# Conqueror Decision
-conqueror_decision = {
+# Conqueror Decisions
+conqueror_decision_free = {
 
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/decision_destiny_goal.dds"
@@ -22,9 +22,108 @@ conqueror_decision = {
 
 	is_shown = {
 		is_ai = no
+		has_game_rule = conqueror_free
 		NOT = {
 			has_trait = conqueror
 		}
+	}
+
+	cost = {
+		prestige = 0
+		gold = 0
+	}
+
+	effect = {
+		add_trait = conqueror
+	}
+
+}
+
+conqueror_decision_low = {
+
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_destiny_goal.dds"
+	}
+
+	major = yes
+
+	ai_check_interval = 0
+
+	sort_order = 1
+
+	is_shown = {
+		is_ai = no
+		has_game_rule = conqueror_cost_low
+		NOT = {
+			has_trait = conqueror
+		}
+	}
+
+	cost = {
+		prestige = 1000
+		gold = 250
+	}
+
+	effect = {
+		add_trait = conqueror
+	}
+
+}
+
+conqueror_decision_medium = {
+
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_destiny_goal.dds"
+	}
+
+	major = yes
+
+	ai_check_interval = 0
+
+	sort_order = 1
+
+	is_shown = {
+		is_ai = no
+		has_game_rule = conqueror_cost_medium
+		NOT = {
+			has_trait = conqueror
+		}
+	}
+
+	cost = {
+		prestige = 2500
+		gold = 500
+	}
+
+	effect = {
+		add_trait = conqueror
+	}
+
+}
+
+conqueror_decision_high = {
+
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_destiny_goal.dds"
+	}
+
+	major = yes
+
+	ai_check_interval = 0
+
+	sort_order = 1
+
+	is_shown = {
+		is_ai = no
+		has_game_rule = conqueror_cost_high
+		NOT = {
+			has_trait = conqueror
+		}
+	}
+
+	cost = {
+		prestige = 5000
+		gold = 1000
 	}
 
 	effect = {

@@ -1,10 +1,41 @@
 ﻿l_english:
 
+#localization for Simple Conquerer Mod Game Rules
+
+game_rule_category_conqueror: "#P Simple Conqueror #!"
+
+rule_conqueror_cost: "#P Simple Conqueror: #! Cost Option"
+setting_conqueror_free: "Free"
+setting_conqueror_free_desc: "No Cost for Conqueror Decision"
+setting_conqueror_cost_low: "Cost Low"
+setting_conqueror_cost_low_desc: "Cost 250 gold and 1000 prestige"
+setting_conqueror_cost_medium: "Cost Medium"
+setting_conqueror_cost_medium_desc: "Cost 500 gold and 2500 prestige"
+setting_conqueror_cost_high: "Cost High"
+setting_conqueror_cost_high_desc: "Cost 1000 gold and 5000 prestige"
+
+
 #localizataion for Simple Conqueror Mod
-conqueror_decision:0 "Become a Conqueror"
-conqueror_decision_tooltip:0 "It is time to conquer your neighbors"
-conqueror_decision_desc:0 "Become a conquerer to unify the land. It is time to Conquer!"
-conqueror_decision_confirm:0 "Become a Conqueror!"
+
+conqueror_decision_free:0 "Become a Conqueror"
+conqueror_decision_free_tooltip:0 "It is time to conquer your neighbors"
+conqueror_decision_free_desc:0 "Become a conquerer to unify the land. It is time to Conquer!"
+conqueror_decision_free_confirm:0 "Become a Conqueror!"
+
+conqueror_decision_low:0 "Become a Conqueror"
+conqueror_decision_low_tooltip:0 "It is time to conquer your neighbors"
+conqueror_decision_low_desc:0 "Become a conquerer to unify the land. It is time to Conquer!"
+conqueror_decision_low_confirm:0 "Become a Conqueror!"
+
+conqueror_decision_medium:0 "Become a Conqueror"
+conqueror_decision_medium_tooltip:0 "It is time to conquer your neighbors"
+conqueror_decision_medium_desc:0 "Become a conquerer to unify the land. It is time to Conquer!"
+conqueror_decision_medium_confirm:0 "Become a Conqueror!"
+
+conqueror_decision_high:0 "Become a Conqueror"
+conqueror_decision_high_tooltip:0 "It is time to conquer your neighbors"
+conqueror_decision_high_desc:0 "Become a conquerer to unify the land. It is time to Conquer!"
+conqueror_decision_high_confirm:0 "Become a Conqueror!"
 
 remove_conqueror_decision:0 "Renounce being a Conqueror"
 remove_conqueror_decision_tooltip:0 "You do not want to be a Conqueror anymore"
